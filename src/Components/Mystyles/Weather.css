@@ -1,0 +1,18 @@
+.hourly p{
+    line-height:1px;
+}
+
+.weather_icons{
+    font-size: 10%;
+}
+
+.move-right {
+    position: absolute; /* Enables positioning */
+    top: 10%;  /* Moves image 50% down the container */
+    left: 80%; /* Moves image 50% to the right of the container */
+    transform: translateX(50%); /* Additional movement to the right */
+    z-index: 1; /* Higher stacking order, making sure the image is on top */
+  }
+
+  
+
